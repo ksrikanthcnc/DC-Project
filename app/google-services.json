@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "465192769218",
+    "firebase_url": "https://nodues-nitc.firebaseio.com",
+    "project_id": "nodues-nitc",
+    "storage_bucket": "nodues-nitc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465192769218:android:6719b7e1557f518b",
+        "android_client_info": {
+          "package_name": "com.dcproject.nodues"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465192769218-db2pih90e31h0jhdp4a5342kp5pp8bub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dcproject.nodues",
+            "certificate_hash": "697cb71bc205128a7e67240937a4ec892365f083"
+          }
+        },
+        {
+          "client_id": "465192769218-k5ekl9lildt7m3r83ck7mnauig56hkil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKEFy646bD7tw3DFvo-tBVADSc32L4-C0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465192769218-k5ekl9lildt7m3r83ck7mnauig56hkil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

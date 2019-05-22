@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NoDues</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    
+    <string-array name="instructions">
+        <item>1.Students can send nodues request by selelcting check boxes of corresponding departments and click Send request</item>
+        <item>2.Students can check status of nodues requested by selecting status in menu </item>
+        <item>3.If a department reject your request you can get Due details by Email to your registerd mail</item>
+        <item>4.After all requested departments approves your request you can generate a PDF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo50">
+
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:inputType="textAutoComplete"
+        android:hint="Student Roll Number"/>
+
+    <EditText
+        android:id="@+id/dueamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/rollno"
+        android:inputType="numberDecimal"
+        android:hint="Due"/>
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/dueamount"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="Reason"/>
+
+    <!--EditText
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/reason"
+        android:maxLines="1"
+        android:inputType="textAutoComplete"
+        android:hint="Month"/-->
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reason"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/addduebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/sp_month"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Add Due"/>
+
+
+</RelativeLayout>

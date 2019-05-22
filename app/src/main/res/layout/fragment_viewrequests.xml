@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/indigo50"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_noreq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Requests"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="visible"/>
+
+    <ListView
+        android:id="@+id/requests_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        app:layout_constraintDimensionRatio="h,1:1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
